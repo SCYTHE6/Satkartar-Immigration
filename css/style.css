@@ -430,16 +430,19 @@ nav .content .links{
 
   @media(max-width: 768px){
     .location{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
+      margin: 0px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
     }
     .around{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 0px;
+      margin: -45px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
     }
     .freelancer{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
+      margin: -70px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
+    }
+    #deal{
+      margin: -45px 0px;
     } 
     .carousel-inner{
       height: 500px;
@@ -450,9 +453,6 @@ nav .content .links{
   .para{
     font-size: 15px;
   }
-  .six{
-    overflow-y: scroll;
-  }
   .intro{
     font-size: 50px;
   }
@@ -460,6 +460,11 @@ nav .content .links{
     font-size: 20px;
   }
   .footpara{
+    /* margin: 0px 0px; */
+    font-size: 12px;
+  }
+  .footparadeal{
+    margin: 50px 0px;
     font-size: 12px;
   }
   #icon{
