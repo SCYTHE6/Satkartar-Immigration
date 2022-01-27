@@ -392,18 +392,21 @@ nav .content .links{
   }
 }
 @media(max-width: 768px){
-    .location{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
-    }
-    .around{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
-    }
-    .freelancer{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
-    }
+  .location{
+    margin: 0px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
+  }
+  .around{
+    margin: -45px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
+  }
+  .freelancer{
+    margin: -70px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
+  }
+  #deal{
+    margin: -5px 0px -40px 0px;
+  }
     .parallaxtext{
       font-size: 50px !important;
     }
@@ -422,9 +425,11 @@ nav .content .links{
     }
     .footpara{
       font-size: 12px;
+      margin-top: -10px;
     }
-    .icons{
-      margin-bottom: 0px;
+    .footparadeal{
+      margin: 40px 0px 40px 0px;
+      font-size: 12px;
     }
     #icon{
       font-size: 20px;

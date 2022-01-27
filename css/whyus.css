@@ -375,20 +375,20 @@ nav .content .links{
 
 @media(max-width: 768px){
   .location{
-  margin: 0px 30px 0px 30px;
-  padding-bottom: 5px;
-}
-.around{
-  margin: 0px 30px 0px 30px;
-  padding-bottom: 5px;
-}
-.icons{
-  margin-bottom: 20px;
-}
-.freelancer{
-  margin: 0px 30px 0px 30px;
-  padding-bottom: 5px;
-}
+    margin: 0px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
+  }
+  .around{
+    margin: -45px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
+  }
+  .freelancer{
+    margin: -70px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
+  }
+  #deal{
+    margin: -50px 0px -40px 0px;
+  }
 .parallaxtext{
   font-size: 50px !important;
 }
@@ -425,6 +425,11 @@ nav .content .links{
   font-size: 20px !important;
 }
 .footpara{
+  font-size: 12px;
+  margin-top: -10px;
+}
+.footparadeal{
+  margin: 40px 0px 40px 0px;
   font-size: 12px;
 }
 #icon{

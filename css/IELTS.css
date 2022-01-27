@@ -401,19 +401,21 @@ background-color: white;
       border-radius: 5px!important;
     }
   }
-
   @media(max-width: 768px){
     .location{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
+      margin: 0px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
     }
     .around{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
+      margin: -45px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
     }
     .freelancer{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
+      margin: -70px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
+    }
+    #deal{
+      margin: -40px 0px;
     }
     .footheading{
       font-size: 25px;
@@ -430,10 +432,16 @@ background-color: white;
     }
     .footpara{
       font-size: 12px;
+      margin-top: -20px;
+    }
+    .footparadeal{
+      margin: 30px 0px 40px 0px;
+      font-size: 12px;
     }
     #icon{
       font-size: 20px;
       padding: 10px;
+      margin: -10px 0px;
     }
     .copyright{
       font-size: 13px;

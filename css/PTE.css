@@ -392,21 +392,29 @@ background-color: white;
 
   @media(max-width: 768px){
     .location{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
+      margin: 0px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
     }
     .around{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
+      margin: -45px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
     }
     .freelancer{
-      margin: 0px 30px 0px 30px;
-      padding-bottom: 5px;
+      margin: -70px 30px 0px 30px !important;
+      padding-bottom: 0px !important;
+    }
+    #deal{
+      margin: -50px 0px -40px 0px;
     }
     .footheading{
       font-size: 20px;
     }
     .footpara{
+      font-size: 12px;
+      margin-top: -10px;
+    }
+    .footparadeal{
+      margin: 40px 0px 40px 0px;
       font-size: 12px;
     }
     #icon{
@@ -417,8 +425,6 @@ background-color: white;
       font-size: 13px;
     }
     .formheading{
-      /* display: flex;
-      justify-content: center; */
       margin-left: 0px;
       margin-right: 60px;
     }

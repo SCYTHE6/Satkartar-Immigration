@@ -389,17 +389,20 @@ nav .content .links{
 }
 @media(max-width: 768px){
   .location{
-    margin: 0px 30px 0px 30px;
-    padding-bottom: 5px;
+    margin: 0px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
   }
   .around{
-    margin: 0px 30px 0px 30px;
-    padding-bottom: 0px;
+    margin: -45px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
   }
   .freelancer{
-    margin: 0px 30px 0px 30px;
-    padding-bottom: 5px;
-  } 
+    margin: -70px 30px 0px 30px !important;
+    padding-bottom: 0px !important;
+  }
+  #deal{
+    margin: -30px 0px;
+  }  
   .img1{
     margin-left: 30px;
     padding-top: 60px;
@@ -441,18 +444,6 @@ nav .content .links{
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  .location{
-    margin: 0px 30px 0px 30px;
-    padding-bottom: 5px;
-  }
-  .around{
-    margin: 0px 30px 0px 30px;
-    padding-bottom: 5px;
-  }
-  .freelancer{
-    margin: 0px 30px 0px 30px;
-    padding-bottom: 5px;
-  }
   .parallaxtext{
     font-size: 50px !important;
   }
@@ -462,6 +453,13 @@ nav .content .links{
   }
   .footpara{
     font-size: 12px !important;
+  }
+  .footheading{
+    font-size: 20px;
+  }
+  .footparadeal{
+    margin: 40px 0px;
+    font-size: 12px;
   }
   #icon{
     font-size: 20px;
