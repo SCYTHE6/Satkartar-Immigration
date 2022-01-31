@@ -14,7 +14,7 @@
 
 
  .wrapper{
-  background: #171c24;
+  background: #001f50;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -105,7 +105,7 @@ nav .content .links{
   outline: none;
   font-size: 17px;
   color: #fff;
-  background: #171c24;
+  background: #001f50;
   padding: 0 100px 0 15px;
 }
 .search-box input::placeholder{
@@ -118,7 +118,7 @@ nav .content .links{
   transform: translateY(-50%);
   line-height: 60px;
   width: 70px;
-  background: #171c24;
+  background: #001f50;
   border: none;
   outline: none;
   color: #fff;
@@ -130,9 +130,11 @@ nav .content .links{
 }
 
 /* Dropdown Menu code start */
+
+
 .content .links ul{
   position: absolute;
-  background: #171c24;
+  background: #001f50;
   top: 80px;
   z-index: -1;
   opacity: 0;
@@ -346,10 +348,10 @@ background-color: white;
     nav .content .links{
       display: block;
       position: fixed;
-      background: #14181f;
+      background: #001f50;
       height: 100%;
       width: 100%;
-      top: 70px;
+      top: 80px;
       left: -100%;
       margin-left: 0;
       max-width: 350px;
@@ -387,7 +389,7 @@ background-color: white;
       max-height: 0px;
       overflow: hidden;
     }
-    .content .links #show-features:checked ~ ul,
+    .content .links #show-destination:checked ~ ul,
     .content .links #show-services:checked ~ ul,
     .content .links #show-items:checked ~ ul{
       max-height: 100vh;
