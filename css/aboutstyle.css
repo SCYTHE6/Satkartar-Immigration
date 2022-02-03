@@ -172,11 +172,9 @@ nav .content .links{
 
 .aboutparallax{
     background-image: url(../media/aboutus.jpg);
-    width: 100%;
-    height: 450px;
+    min-height: 510px;
     background-size: cover;
     background-position: center;
-    display: table;
     background-attachment: fixed;
 }
 .bg-light {
@@ -246,7 +244,6 @@ nav .content .links{
     color: white;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
   }
   .footheading{
     color: orange;
@@ -258,7 +255,6 @@ nav .content .links{
     color: white;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
   }
   .icons{
     margin-bottom: 40px;
@@ -299,6 +295,13 @@ nav .content .links{
 
 
 @media screen and (max-width: 1250px){
+  /* .aboutparallax{
+    background-image: url(../media/aboutus.jpg);
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  } */
   .wrapper nav{
     max-width: 100%;
     padding: 0 20px;
@@ -322,6 +325,42 @@ nav .content .links{
 }
 
 @media screen and (max-width: 900px){
+  .aboutparallax{
+    background-image: url(../media/aboutus1.jpg);
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+  /* .img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+    width: 350px;
+    height: 430px;
+  }
+  .img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+    width: 400px;
+    height: 500px;
+  } */
+  .about{
+    text-align: right;
+    font-size: 25px;
+    padding-bottom: 10px;
+    /* margin-top: 20px ; */        
+    margin-left: 50px;
+  }
+  .aboutpara{
+    text-align: right;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
   .wrapper .menu-icon{
     display: block;
   }
@@ -387,6 +426,13 @@ nav .content .links{
   }
 }
 @media(max-width: 768px){
+  .aboutparallax{
+    background-image: url(../media/aboutus1.jpg);
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
   .location{
     margin: 0px 30px 0px 30px !important;
     padding-bottom: 0px !important;
@@ -401,29 +447,33 @@ nav .content .links{
   }
   #deal{
     margin: -30px 0px;
-  }  
+  } 
   .img1{
-    margin-left: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
     padding-top: 60px;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 400px;
-    height: 500px;
+    width: 320px;
+    height: 400px;
   }
   .img2{
-    margin-left: 30px;
-    padding-top: 60px;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 400px;
-    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    width: 320px;
+    height: 400px;
   }
   .about{
     text-align: center;
     font-size: 25px;
     padding-bottom: 10px;
+    margin-top: 20px ;
   }
   .aboutpara{
+    text-align: center;
     font-size: 15px;
     margin-left: 50px;
     margin-right: 50px;
@@ -433,7 +483,6 @@ nav .content .links{
   }
   .messagepara{
     font-size: 15px;
-    /* text-align: center; */
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -484,6 +533,22 @@ nav .content .links{
   }
   .wrapper .search-box input{
     padding-right: 30px;
+  }
+  .img1{
+    margin-left: 30px;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 400px;
+    height: 500px;
+  }
+  .img2{
+    margin-left: 30px;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 400px;
+    height: 500px;
   }
 }
 

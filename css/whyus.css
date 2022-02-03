@@ -231,13 +231,11 @@ nav .content .links{
     color: white;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
   }
   .around{
     color: white;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
   }
   .freelancer{
     color: white;
@@ -374,6 +372,15 @@ nav .content .links{
 }
 
 @media(max-width: 768px){
+  .WhyUsparallax{
+    background-image: url("../media/company-profile.jpg");
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
   .location{
     margin: 0px 30px 0px 30px !important;
     padding-bottom: 0px !important;

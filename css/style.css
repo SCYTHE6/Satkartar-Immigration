@@ -225,8 +225,8 @@ nav .content .links{
     margin-right: auto;
 }
 .d-block{
-    width: 80%;
-    height: 700px;
+    width: 100%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -281,7 +281,6 @@ nav .content .links{
     color: white;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 50px;
   }
   .footheading{
     overflow: hidden;
@@ -294,7 +293,6 @@ nav .content .links{
     color: white;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 50px;
   }
   .icons{
     margin-bottom: 60px;
@@ -429,6 +427,15 @@ nav .content .links{
   }
 
   @media(max-width: 768px){
+    .parallax{
+      height: 100%;
+      width: 100%;  
+      background-image: url(../media/Newyork.jpg);
+      background-size: cover;
+      background-position: center;
+      display: table;
+      background-attachment: scroll;
+  }
     .location{
       margin: 0px 30px 0px 30px !important;
       padding-bottom: 0px !important;
@@ -444,9 +451,9 @@ nav .content .links{
     #deal{
       margin: -45px 0px;
     } 
-    .carousel-inner{
+    /* .carousel-inner{
       height: 500px;
-    }
+    } */
     .about{
       font-size: 30px;
   }

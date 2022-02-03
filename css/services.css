@@ -384,7 +384,6 @@ nav .content .links{
   color: white;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 50px;
 }
 .footheading{
   overflow: hidden;
@@ -396,8 +395,7 @@ nav .content .links{
 .around{
   color: white;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 140px;
 }
 #icon{
   margin: 2px;
@@ -522,6 +520,15 @@ background-color: white;
     }
   }
     @media(max-width: 768px){
+      .servicesparallax{
+        background-image: url("../media/serviceparallax.jpg");
+        height: 450px;
+        width: 100%;  
+        background-size: cover;
+        background-position: center;
+        display: table;
+        background-attachment: scroll;
+      }
       .location{
         margin: 0px 30px 0px 30px !important;
         padding-bottom: 0px !important;

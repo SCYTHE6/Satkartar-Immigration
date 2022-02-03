@@ -165,6 +165,18 @@ nav .content .links{
 }
 
 
+
+.parallax{
+  background-image: url(../media/student-visa-banner.jpg);
+  min-height: 600px;
+  width: 100%; 
+  position: relative; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
 /* <!------------- Form And IELTS Para -----------> */
 
 
@@ -263,7 +275,6 @@ nav .content .links{
   color: white;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 .footheading{
   overflow: hidden;
@@ -276,7 +287,6 @@ nav .content .links{
   color: white;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 .icons{
   margin-bottom: 60px;
@@ -404,6 +414,20 @@ background-color: white;
     }
   }
   @media(max-width: 768px){
+    .topimg{
+      margin-top: 80px;
+      width: 100%;
+      height: auto;
+    }
+    .parallax{
+      background-image: url(../media/student-visa-banner.jpg);
+      min-height: 400px;
+      width: 100%;  
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-attachment: scroll;
+    }
     .location{
       margin: 0px 30px 0px 30px !important;
       padding-bottom: 0px !important;
