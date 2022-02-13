@@ -252,6 +252,7 @@ nav .content .links{
     background-color: #141c50;
     height: auto;
     overflow-y: hidden !important;
+    width: 100%;
   }
   .row{
     margin-left: 0px !important;
@@ -473,4 +474,8 @@ nav .content .links{
   .wrapper .search-box input{
     padding-right: 30px;
   }
+  .down{
+    margin-top: 20px;
+    margin-left: 5px;
+}
 }
