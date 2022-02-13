@@ -533,8 +533,11 @@ background-color: white;
         margin: 0px 30px 0px 30px !important;
         padding-bottom: 0px !important;
       }
+      .footpara{
+        margin: 0px 30px 0px 0px !important;
+      }
       .around{
-        margin: -45px 30px 0px 30px !important;
+        margin: -130px 30px 0px 30px !important;
         padding-bottom: 0px !important;
       }
       .freelancer{
